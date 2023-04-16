@@ -7,8 +7,8 @@ from mysql.connector import Error
 ########################## SQL CONNECTION ##########################
 
 try:
-    db = msql.connect(host='localhost', username='root',
-                      password='@Decade2001', db='college')
+    db = msql.connect(host='localhost', username='ypur_username',
+                      password='your_password', db='database_name')
     command_handler = db.cursor(buffered=True)
 
 except Error as e:
